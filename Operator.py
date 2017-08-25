@@ -19,6 +19,8 @@ __version__ = '1.0'
 
 num1 = 10
 num2 = 20
+
+
 print("Num1 + Num2 =", num1 + num2)
 print("Num1 - Num2 =", num1 - num2)
 print("Num1 * Num2 =", num1 * num2)
@@ -26,3 +28,41 @@ print("Num1 / Num2 =", num1 / num2)
 print('5^3 =', 5 ** 3)
 print("20 % 3 =", 20 % 3)
 print("22//7=", 22 // 7)
+print('3.8//2', 3.8//2)
+
+# Assignment Operator
+num3 = num1 + num2
+print(num3)
+num3+=num2  # num3 = num3 + num2
+print(num3)
+
+# Comparison Operators
+'''
+print("Is num 3 > num 2?", num3 > num2)
+print("Is num 2 > num 3?", num2 > num3)
+print("Is num 1 == num 2?", num1 == num2)
+print("Is num 1 != num 2?", num1 != num2)
+'''
+
+# Logical Operators
+'''
+x=True
+y=False
+
+print("X and Y", x and y)
+print("X or Y", x or y)
+print("not of X", not x)
+'''
+
+# Bitwise Operator
+
+num4 = 6 # 110
+num5 = 2 # 010
+'''
+print('bitwise and=', num4 & num5)
+print('bitwise or=', num4 | num5)
+print('bitwise xor=', num4 ^  num5)
+'''
+print("num4 rightshift by 2", num4 >> 2)
+print("num5 leftshift by 2", num5 >> 2)
+
