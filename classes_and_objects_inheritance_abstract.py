@@ -38,5 +38,12 @@ class Developer(Employee):
 
         return finalsalary
 
+    def position_1(self, position):
+
+        self.position = position
+
+        return position
+
 emp_1 = Developer()
-print(emp_1.caclulate_salary(10000))
+# print(emp_1.caclulate_salary(10000))
+print(emp_1.position_1('Web developer'))
