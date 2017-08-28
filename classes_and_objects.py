@@ -35,16 +35,37 @@ class Student:
 Std_1 = Student("Neel", "Verma", 60)
 Std_2 = Student("Hemant", "Sharma", 90)
 
-print(Std_1.first)
-print(Std_1.email)
-print(Std_1.fullname())
-print(Std_1.marks)
-Std_1.apply_raise()
-print(Std_1.marks)
 
-print(Std_2.first)
-print(Std_2.email)
-print(Std_2.fullname())
-print(Std_2.marks)
-Std_2.apply_raise()
-print(Std_2.marks)
+class Dumb(Student):
+
+    perc_rise = 1.10
+
+    def __init__(self, first, last, marks, prog_lang):
+        super().__init__(first, last, marks)
+        self.prog_lang = prog_lang
+
+Std_1 = Dumb('Neel', 'Verma', 60, 'Python')
+print(Std_1.prog_lang)
+
+
+# Std_1 = Dumb('Neel', 'Verma', 60)
+# print(Std_1.perc_rise)
+# Std_1 = Student('Neel', 'Verma', 60)
+# print(Std_1.perc_rise)
+# # print(help(Dumb))
+# Std_2 = Student('Hemant', 'Sharma', 90)
+# print(Std_1.first)
+# print(Std_1.email)
+# print(Std_1.fullname())
+# print(Std_1.marks)
+# Std_1.apply_raise()
+# print(Std_1.marks)
+#
+# print(Std_2.first)
+# print(Std_2.email)
+# print(Std_2.fullname())
+# print(Std_2.marks)
+# print(Std_2.marks)
+# Std_2.apply_raise()
+# print(Std_2.__dict__)
+# print(Student.__dict__)
