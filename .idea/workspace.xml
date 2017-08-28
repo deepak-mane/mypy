@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56953f32-548f-48bd-a785-4806ed2f7079" name="Default" comment="Tuples.py" />
+    <list default="true" id="56953f32-548f-48bd-a785-4806ed2f7079" name="Default" comment="Tuples.py">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes_and_objects_inheritance_abstract.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +14,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="classes_and_objects.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="classes_and_objects.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes_and_objects.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
               <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classes_and_objects_inheritance_abstract.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classes_and_objects_inheritance_abstract.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -54,6 +66,7 @@
         <option value="$PROJECT_DIR$/Tuples.py" />
         <option value="$PROJECT_DIR$/function_examples.py" />
         <option value="$PROJECT_DIR$/classes_and_objects.py" />
+        <option value="$PROJECT_DIR$/classes_and_objects_inheritance_abstract.py" />
       </list>
     </option>
   </component>
@@ -133,6 +146,11 @@
         <option name="myAddSourceRoots" value="true" />
       </console-settings>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ONLY-PY\GITHUB\mypy" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -391,6 +409,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes_and_objects_inheritance_abstract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
