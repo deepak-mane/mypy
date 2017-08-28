@@ -15,3 +15,28 @@ once you pass the current and new extensions
 __author__ = 'Deepak Mane'
 __version__ = '1.0'
 
+from abc import ABC, abstractmethod
+
+class Employee(ABC):
+
+    @abstractmethod
+
+    def caclulate_salary(self, sal):
+
+        pass
+# This below code will not work of Creating Object from Abstract class.
+# Only you can inherit certain features from Base Class to Child Class (e.g Developer) and then you can create object from the Child class
+# emp_2 = Employee()
+# emp2.sal = 10000
+# print(emp_2.sal)
+
+class Developer(Employee):
+
+    def caclulate_salary(self, sal):
+
+        finalsalary = sal * 1.10
+
+        return finalsalary
+
+emp_1 = Developer()
+print(emp_1.caclulate_salary(10000))
