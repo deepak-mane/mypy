@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56953f32-548f-48bd-a785-4806ed2f7079" name="Default" comment="Tuples.py">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matplotlib_withlabels.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matplotlib_withlables_legend.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,21 +15,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="matplotlib_basic.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matplotlib_basic.py">
+      <file leaf-file-name="matplotlib_withlables_legend.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/matplotlib_withlables_legend.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="matplotlib_withlabels.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/matplotlib_withlabels.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="108">
+              <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -70,6 +60,7 @@
         <option value="$PROJECT_DIR$/classes_and_objects_inheritance_abstract.py" />
         <option value="$PROJECT_DIR$/matplotlib_basic.py" />
         <option value="$PROJECT_DIR$/matplotlib_withlabels.py" />
+        <option value="$PROJECT_DIR$/matplotlib_withlables_legend.py" />
       </list>
     </option>
   </component>
@@ -167,25 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.matplotlib_withlabels">
-    <configuration default="false" name="function_examples" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="mypy" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/function_examples.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.matplotlib_withlables_legend">
     <configuration default="false" name="classes_and_objects" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,6 +231,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="matplotlib_withlables_legend" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mypy" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matplotlib_withlables_legend.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -324,19 +315,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.function_examples" />
-      <item index="1" class="java.lang.String" itemvalue="Python.classes_and_objects" />
-      <item index="2" class="java.lang.String" itemvalue="Python.classes_and_objects_inheritance_abstract" />
-      <item index="3" class="java.lang.String" itemvalue="Python.matplotlib_basic" />
-      <item index="4" class="java.lang.String" itemvalue="Python.matplotlib_withlabels" />
+      <item index="0" class="java.lang.String" itemvalue="Python.classes_and_objects" />
+      <item index="1" class="java.lang.String" itemvalue="Python.classes_and_objects_inheritance_abstract" />
+      <item index="2" class="java.lang.String" itemvalue="Python.matplotlib_basic" />
+      <item index="3" class="java.lang.String" itemvalue="Python.matplotlib_withlabels" />
+      <item index="4" class="java.lang.String" itemvalue="Python.matplotlib_withlables_legend" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.matplotlib_withlabels" />
-        <item index="1" class="java.lang.String" itemvalue="Python.matplotlib_basic" />
-        <item index="2" class="java.lang.String" itemvalue="Python.classes_and_objects_inheritance_abstract" />
-        <item index="3" class="java.lang.String" itemvalue="Python.classes_and_objects" />
-        <item index="4" class="java.lang.String" itemvalue="Python.function_examples" />
+        <item index="0" class="java.lang.String" itemvalue="Python.matplotlib_withlables_legend" />
+        <item index="1" class="java.lang.String" itemvalue="Python.matplotlib_withlabels" />
+        <item index="2" class="java.lang.String" itemvalue="Python.matplotlib_basic" />
+        <item index="3" class="java.lang.String" itemvalue="Python.classes_and_objects_inheritance_abstract" />
+        <item index="4" class="java.lang.String" itemvalue="Python.classes_and_objects" />
       </list>
     </recent_temporary>
   </component>
@@ -452,6 +443,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib_withlabels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="30" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/matplotlib_basic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -460,10 +459,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/matplotlib_withlabels.py">
+    <entry file="file://$PROJECT_DIR$/matplotlib_withlables_legend.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="108">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
           <folding />
         </state>
       </provider>
