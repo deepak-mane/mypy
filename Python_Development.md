@@ -75,16 +75,18 @@ $ conda env list
 ### [] Useful commands
 Here is a brief summary of useful commands for environemnts. Anaconda has also published a cheat sheet with a more extensive list of useful commands.
 
-Command
-Create a new environment ENV_NAME with Python version 3.X	conda create --name ENV_NAME python=3.X
-Create a new environment ENV_NAME with some initial packages	conda create --name ENV_NAME python=3.X pandas ipykernel
-Create a new environment from a yaml file	conda env create --file environment.yaml
-Activate the environment ENV_NAME (OSX, Linux)	source activate ENV_NAME
-Activate the environment ENV_NAME (Windows)	activate ENV_NAME
-Deactivate the current environment (*)	source deactivate
-Delete the environment ENV_NAME	conda env remove --name ENV_NAME
-List all installed environments	conda env list
-Create a YAML file for active environment(*)	conda env export > environment.yaml
+| |Command|
+| --- | --- |
+|Create a new environment ENV_NAME with Python version 3.X	|conda create --name ENV_NAME python=3.X|
+|Create a new environment ENV_NAME with some initial packages	|conda create --name ENV_NAME python=3.X pandas ipykernel|
+|Create a new environment from a yaml file	|conda env create --file environment.yaml|
+|Activate the environment ENV_NAME (OSX, Linux)	|source activate ENV_NAME|
+|Activate the environment ENV_NAME (Windows)|	activate ENV_NAME|
+|Deactivate the current environment (*)	|source deactivate|
+|Delete the environment ENV_NAME	|conda env remove --name ENV_NAME|
+|List all installed environments	|conda env list|
+|Create a YAML file for active environment(*)	|conda env export > environment.yaml|
+
 The commands with (*) require you to have the environment active before using them. The naming is a little odd for creating environments: if creating them yourself the command is conda create ....., but if creating them from a yaml file we use conda env create ....... This is not a typo!
 
 ### [] Tip for maximizing portability
