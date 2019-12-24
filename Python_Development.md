@@ -75,7 +75,7 @@ $ conda env list
 ### [] Useful commands
 Here is a brief summary of useful commands for environemnts. Anaconda has also published a cheat sheet with a more extensive list of useful commands.
 
-| |Command|
+| <b>Task</b> |<b>Command</b>|
 | --- | --- |
 |Create a new environment ENV_NAME with Python version 3.X	|conda create --name ENV_NAME python=3.X|
 |Create a new environment ENV_NAME with some initial packages	|conda create --name ENV_NAME python=3.X pandas ipykernel|
