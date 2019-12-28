@@ -1,8 +1,8 @@
 # mypy
 My Python Snippets Created while learning stuff
 
-|||
-|---|---|
+|<b>Python Topic</b>| <b>Example Implementation</b>|
+| --- | --- |
 | [Python3 Installation](./Documentation/Python3_Installation.md)| |
 | [Choice of IDE](./Documentation/Python3_ChoiceofIDE.md)| |
 | [Numbers,Operators,Comments](./Documentation/Python3_NumbersOperators.md) | [Numbers,Operators,CommentsExamples ](./Documentation/Examples/Python3_NumbersOperators.py)|
