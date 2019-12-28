@@ -66,3 +66,12 @@ print(str_three)
 - str + str = str
 - str + int = weired result, error.
 - " += " is a nice operator when assigning operators in strings
+- ```name = name + " steele" is name += " steele"```
+
+# String Formatting
+- There are also several ways to format strings in Python to <b>interplate</b> variables.
+- The new way(new in Python 3.6+) => F-Strings
+- ```python 
+  x = 10
+  formatted = f"I 'v told you {x} times already!"
+```
