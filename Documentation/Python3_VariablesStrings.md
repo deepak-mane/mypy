@@ -44,3 +44,14 @@ In any assignment, the assigned value must always be a valid data type.
 - child = None
 - instead of using child = "" , when you use None the variable is created as container with None Type
 
+# Declaration Strings
+- ' ' or " "
+- Can use Quotes in Quotes ' " " ' or "  ' ' "
+
+# String Escape Characters/Sequences
+- In Python there are also "escape characters", which are "metacharacters" - they get interpreted by Python to do something special.
+- ' \n ' : puts new line when used in print()
+- ' \\ ' : Use Double back Slash to use one back slash
+- ' \b ' : e.g str = "hel\blo" gives print(str) as helo.
+- ' \' ' : here single quote is escaped using back slash.
+
