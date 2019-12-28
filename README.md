@@ -1,6 +1,34 @@
 # mypy
 My Python Snippets Created while learning stuff
 
+
+-- Python3 Installation
+
+Choice of IDE
+Numbers,Operators,Comments
+Variables,Strings
+Boolean and Conditional Logic
+Looping in Python
+Lists
+Lists Comprehensions
+Dictionaries
+Tuples and Sets
+Functions
+Lambdas and Built-In Functions
+Debugging and Error Handling
+Modules
+Object Oriented Programming
+OOP2
+Iterators and Generators
+Decorators
+Testing with Python
+File IO
+Working with CSV and Pickling
+Web Scrapping with BeautifulSoup
+Regular Expressions
+Python + SQL
+
+
 ## Some of favourite courses
 - [Python and Django Full Stack Web Developer Bootcamp - Jose Portilla ](https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/learn/)
 - [Practical PHP: Master the Basics and Code Dynamic Websites - Brad Hussey](https://www.udemy.com/course/code-dynamic-websites/learn/)
