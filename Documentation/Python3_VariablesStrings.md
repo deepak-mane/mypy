@@ -57,16 +57,16 @@ In any assignment, the assigned value must always be a valid data type.
 
 # String Concatenation
 - Concatenation is combining multiple strings together. In Python you can do this simply with the "+" operator.
-```python
-str_one = "your"
-str_two = "face"
-str_three = str_one + str_two
-print(str_three)
-```
+    ```python
+    str_one = "your"
+    str_two = "face"
+    str_three = str_one + str_two
+    print(str_three)
+    ```
 - str + str = str
 - str + int = weired result, error.
 - " += " is a nice operator when assigning operators in strings
-- ```name = name + " steele" is name += " steele"```
+    ```name = name + " steele" is name += " steele"```
 
 # String Formatting
 - There are also several ways to format strings in Python to <b>interplate</b> variables.
