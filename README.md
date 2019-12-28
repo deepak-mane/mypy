@@ -29,6 +29,7 @@ My Python Snippets Created while learning stuff
 
 
 ## Some of favourite courses
+- [The Modern Python3 Bootcamp](https://www.udemy.com/course/the-modern-python3-bootcamp)
 - [Python and Django Full Stack Web Developer Bootcamp - Jose Portilla ](https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/learn/)
 - [Practical PHP: Master the Basics and Code Dynamic Websites - Brad Hussey](https://www.udemy.com/course/code-dynamic-websites/learn/)
 - [The Web Developer Bootcamp - Colt Steele](https://www.udemy.com/course/the-web-developer-bootcamp/learn/)
