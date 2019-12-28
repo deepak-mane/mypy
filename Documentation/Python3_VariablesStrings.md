@@ -90,3 +90,31 @@ In any assignment, the assigned value must always be a valid data type.
   x = 10
   formatted = "I 'v told you %d times already!" % (x)
   ```
+
+# Strings and Indices
+- Every character in string is index starting with '0' index
+  ```python 
+  >>>name = "Chuck"
+  >>>name[0]
+  'C'
+  ```
+- Negative One '-1' index gives the last character of the string
+  ```python
+  >>>name[-1]
+  'k'
+  ```
+# Converting Data Types
+- In string interpolation, data types are implicitly converted into  string form(more on this later in OOP)
+- You can also explicity convert variables by using the name of the builtin type as a function
+  ```python
+   >>>decimal = 12.5656565656
+   >>>int(decimal)
+   12
+   
+   >>>my_list = [1, 2, 3]
+   >>>my_list_as_a_string = str(my_list)  # "[1, 2, 3]"
+   ```
+
+
+
+  
