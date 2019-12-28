@@ -2,7 +2,7 @@
 My Python Snippets Created while learning stuff
 
 
--- Python3 Installation
+1. Python3 Installation
 
 Choice of IDE
 Numbers,Operators,Comments
