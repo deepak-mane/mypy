@@ -53,5 +53,5 @@ In any assignment, the assigned value must always be a valid data type.
 - ' \n ' : puts new line when used in print()
 - ' \\ ' : Use Double back Slash to use one back slash
 - ' \b ' : e.g str = "hel\blo" gives print(str) as helo.
-- ' \' ' : here single quote is escaped using back slash.
+- ' \ ' ': here single quote is escaped using back slash.
 
