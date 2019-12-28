@@ -55,3 +55,14 @@ In any assignment, the assigned value must always be a valid data type.
 - ' \b ' : e.g str = "hel\blo" gives print(str) as helo.
 - ' \ ' ': here single quote is escaped using back slash.
 
+# String Concatenation
+- Concatenation is combining multiple strings together. In Python you can do this simply with the "+" operator.
+```python
+str_one = "your"
+str_two = "face"
+str_three = str_one + str_two
+print(str_three)
+```
+- str + str = str
+- str + int = weired result, error.
+- " += " is a nice operator when assigning operators in strings
