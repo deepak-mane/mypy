@@ -71,7 +71,7 @@ print(str_three)
 # String Formatting
 - There are also several ways to format strings in Python to <b>interplate</b> variables.
 - The new way(new in Python 3.6+) => F-Strings
-- ```python 
+  ```python 
   x = 10
   formatted = f"I 'v told you {x} times already!"
   
@@ -80,13 +80,13 @@ print(str_three)
   >>>your guess of 9 was incorrect!```
 
 - The tried-and-true way(Python 2 -> 3.5) => <b>.format method</b>
-- ```python 
+  ```python 
   x = 10
   formatted = "I 'v told you {} times already!".format(10)```
   
 
 - The OLD way => <b>% operator</b>(deprecated)
-- ```python 
+  ```python 
   x = 10
   formatted = "I 'v told you %d times already!" % (x)
   ```
