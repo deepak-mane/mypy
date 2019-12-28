@@ -22,7 +22,7 @@
 
 # Data Types
 In any assignment, the assigned value must always be a valid data type.
-- Python Data Types Includes:
+- Python Data Types Includes :
 
 |<b>Data Type<b/>|<b>Description<b/>|
 |---|---|
