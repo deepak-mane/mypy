@@ -2,31 +2,30 @@
 My Python Snippets Created while learning stuff
 
 
-1. Python3 Installation
-
-Choice of IDE
-Numbers,Operators,Comments
-Variables,Strings
-Boolean and Conditional Logic
-Looping in Python
-Lists
-Lists Comprehensions
-Dictionaries
-Tuples and Sets
-Functions
-Lambdas and Built-In Functions
-Debugging and Error Handling
-Modules
-Object Oriented Programming
-OOP2
-Iterators and Generators
-Decorators
-Testing with Python
-File IO
-Working with CSV and Pickling
-Web Scrapping with BeautifulSoup
-Regular Expressions
-Python + SQL
+1. [Python3 Installation]()
+1. [Choice of IDE]()
+1. [Numbers,Operators,Comments]()
+1. [Variables,Strings]()
+1. [Boolean and Conditional Logic]()
+1. [Looping in Python]()
+1. [Lists]()
+1. [Lists Comprehensions]()
+1. [Dictionaries]()
+1. [Tuples and Sets]()
+1. [Functions]()
+1. [Lambdas and Built-In Functions]()
+1. [Debugging and Error Handling]()
+1. [Modules]()
+1. [Object Oriented Programming]()
+1. [OOP2]()
+1. [Iterators and Generators]()
+1. [Decorators]()
+1. [Testing with Python]()
+1. [File IO]()
+1. [Working with CSV and Pickling]()
+1. [Web Scrapping with BeautifulSoup]()
+1. [Regular Expressions]()
+1. [Python + SQL]()
 
 
 ## Some of favourite courses
