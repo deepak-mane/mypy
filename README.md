@@ -39,7 +39,7 @@ My Python Snippets Created while learning stuff
 - [Express course - Develop Web Apps/SaaS with PHP and ATK - Romans Malinovskis](https://www.udemy.com/course/web-apps-with-php-and-atk/)
 - [The Python Mega Course: Build 10 Real World Applications - Ardit Sulce](https://www.udemy.com/course/the-python-mega-course/)
 
-## DataStructures & Algorithm Cources
+## DataStructures & Algorithm Courses
 - [The Coding Interview Bootcamp: Algorithms + Data Structures - Stephen Grider](https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/) [JavaScript]
 - [JavaScript Algorithms and Data Structures Masterclass - Colt Steele](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/)
 - [Mastering Data Structures & Algorithms using C and C++ - Abdul Bari](https://www.udemy.com/course/datastructurescncpp/) 
