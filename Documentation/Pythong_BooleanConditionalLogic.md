@@ -49,4 +49,17 @@
   else:
        print("YOU MONSTER! ")
    ```
-      
+## Truthiness & Falsiness
+- In Python, all conditional checks resolve to True or False
+    ```python
+    x = 1
+    x is 1 # True
+    x is 0 # False
+    ```
+- We can call values that will resolve to True "truthy", or values that will resolve to False "falsy".
+- Besides False conditional checks, other things that are naturally falsy include:
+  - empty objects
+  - empty strings,
+  - None
+  - zero
+
