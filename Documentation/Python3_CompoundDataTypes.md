@@ -9,4 +9,5 @@ Lists,Dictionaries,Sets,Tuples
 |<b>Indexed</b>| Yes | No | No | Yes |
 |<b>Immutable</b> | No | No | Yes | Yes |
 |<b>Unique Elements</b> | No | Yes | Yes | No |
+|Useful For||||
 
