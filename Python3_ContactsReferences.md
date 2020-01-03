@@ -13,6 +13,6 @@
 - [Colt Steele](https://www.linkedin.com/in/coltsteele)
   + [The Modern Python 3 Bootcamp - Colt Steele](https://www.udemy.com/course/the-modern-python3-bootcamp/)
 - [Andrei Neagoie](https://www.linkedin.com/in/andreineagoie)
-  + [Complete Python Developer in 2020: Zero to Mastery - Andrei Neagoie](https://www.udemy.com/course/complete-python-developer-zero-to-mastery/)
+  + [Complete Python Developer in 2020: Zero to Mastery - Andrei Neagoie](https://www.udemy.com/course/complete-python-developer-zero-to-mastery/) Build 12 Projects.
 - [Al Sweigart](https://www.linkedin.com/in/al-sweigart-aa41703/)
   + [Automate the Boring Stuff with Python Programming - Al Sweigart](https://www.udemy.com/course/automate/)
