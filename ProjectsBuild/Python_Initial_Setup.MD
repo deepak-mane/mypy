@@ -27,7 +27,7 @@ python manage.py startapp lookup                                                
 
 - __3 things needed__
   + First you need actual web page
-    - created templates directory with home.html file init.
+    - created templates directory in the app [lookup] and added home.html file init.
   + template
     - created views.py file in the app [lookup] and added home(request) init and pointed to above file
   + url
