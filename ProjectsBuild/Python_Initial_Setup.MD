@@ -23,17 +23,9 @@ winpty python manage.py createsuperuser
 To Create New App
 python manage.py startapp lookup                                                                                   (venv)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```
+
+- 3 things needed
+  + url
+  + tempate
+  + view
