@@ -14,4 +14,9 @@ source venv/Scripts/activate
 
 python manage.py runserver 7000
 
+Non non-windows
+python manage.py createsuperuser
+
+For windows git-bash
+winpty python manage.py createsuperuser
 ```
