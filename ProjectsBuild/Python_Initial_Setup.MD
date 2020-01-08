@@ -33,4 +33,4 @@ python manage.py startapp lookup                                                
   + url
     - created urls.py file in the app [lookup] and added path('', views.home, name="home"),
     
-2. Creating Navbar
+2. __Creating Navbar__
