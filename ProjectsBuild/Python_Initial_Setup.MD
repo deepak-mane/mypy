@@ -21,7 +21,7 @@ For windows git-bash
 winpty python manage.py createsuperuser
 
 To Create New App
-python manage.py startapp lookup                                                                                   (venv)
+python manage.py startapp lookup
 
 ```
 
