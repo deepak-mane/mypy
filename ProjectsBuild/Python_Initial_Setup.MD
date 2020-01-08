@@ -25,7 +25,7 @@ python manage.py startapp lookup                                                
 
 ```
 
-- __3 things needed__
+1. __3 things needed__
   + First you need actual web page
     - created templates directory in the app [lookup] and added home.html file init.
   + template
@@ -33,3 +33,4 @@ python manage.py startapp lookup                                                
   + url
     - created urls.py file in the app [lookup] and added path('', views.home, name="home"),
     
+2. Creating Navbar
