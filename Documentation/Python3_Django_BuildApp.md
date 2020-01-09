@@ -5,14 +5,14 @@ Set-ExecutionPolicy Unrestricted , and answer Y
 python -V
 conda install pip
 pip freeze
-mkdir D:\APP\djangostuff                                # Make Directory for Base location of he Application Files
-python -m venv D:\APP\djangostuff\venv                  # Creating virtual environment for python
-source D:\APP\djangostuff\venv\Scripts\activate         # Activating the virtual environemnt on linux
-./venv/Scripts/activate                                 # Activating the virtual environemnt on windows - PowerShell
-conda install pip                                       # Use Anaconda Package manager to first install pip
-pip install django                                      # Use pip in future to install any modules in venv
-python -m pip install --upgrade pip                     # If pip is on lower version upgarde using this command
-pip freeze                                              # To validate what packages are installed in venv
+mkdir D:\APP\djangostuff              # Make Directory for Base location of he Application Files
+python -m venv D:\APP\djangostuff\venv  # Creating virtual environment for python
+source D:\APP\djangostuff\venv\Scripts\activate  # Activating the virtual environemnt on linux
+./venv/Scripts/activate                 # Activating the virtual environemnt on windows - PowerShell
+conda install pip                     # Use Anaconda Package manager to first install pip
+pip install django                 # Use pip in future to install any modules in venv
+python -m pip install --upgrade pip   # If pip is on lower version upgarde using this command
+pip freeze                              # To validate what packages are installed in venv
 
 (venv) (base) PS D:\app\djangostuff> pip freeze
 asgiref==3.2.3
