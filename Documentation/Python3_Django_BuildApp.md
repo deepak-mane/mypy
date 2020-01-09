@@ -1,5 +1,12 @@
 # Python3 : Django - Building Web Apps
 
+- To build app 3 things needed:
+  + urls.py
+  + views.py
+
+So it can be hard to wrap your brain around this whole concept right now that these three things all work together in order to create a simple Web page in Django. Again just to run through this we create a url pattern which is basically a route the route points to where that view is in the __views.py__ file. The views.py file defines what it is. In this case it's home.html and we're good to go.
+
+
 ```sh
 Set-ExecutionPolicy Unrestricted , and answer Y
 python -V
@@ -64,19 +71,11 @@ Superuser created successfully.
 (venv) (base) PS D:\app\djangostuff\my_app>
 
 
-
-
-
-
-
 ```
 
 ```sh
 export APP_NAME="test"
 mkdir -p /D/APP/$APP_NAME
-
-
-
 
 
 ```
