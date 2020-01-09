@@ -55,6 +55,19 @@ Running migrations:
   Applying sessions.0001_initial... OK
 (venv) (base) PS D:\app\djangostuff\my_app>
 
+(venv) (base) PS D:\app\djangostuff\my_app> python manage.py createsuperuser
+Username (leave blank to use 'deeps'): admin
+Email address:
+Password:
+Password (again):
+Superuser created successfully.
+(venv) (base) PS D:\app\djangostuff\my_app>
+
+
+
+
+
+
 
 ```
 
