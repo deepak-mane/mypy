@@ -1,12 +1,12 @@
 # Python3 - Django : How Django Implements Web Applications ?
 
 [Key points:]()
-1. Understanding The MVC Pattern
-1. Django's Approach
-1. Django Model
-1. Django View
-1. Django Template
-1. Django Router and URLs
+1. [Understanding The MVC Pattern](./Python3_Django_HowDjangoImplementsWebApp.MD#understanding-the-mvc-pattern)
+1. [Django's Approach](./Python3_Django_HowDjangoImplementsWebApp.MD#django's-approach)
+1. [Django Model](./Python3_Django_HowDjangoImplementsWebApp.MD#django-model)
+1. [Django View](./Python3_Django_HowDjangoImplementsWebApp.MD#django-view)
+1. [Django Template](./Python3_Django_HowDjangoImplementsWebApp.MD#django-template)
+1. [Django Router and URLs](./Python3_Django_HowDjangoImplementsWebApp.MD##django-router-and-urls)
 
 ## Understanding The MVC Pattern
 - MVC Overview:
@@ -33,3 +33,16 @@ __*Test driven development basically is a method of developing software where in
     
    ![Alt text](../images/MVCOverview.PNG?raw=true "Title") 
         
+## Django's Approach
+
+
+## Django Model
+
+
+## Django View
+
+
+## Django Template
+
+
+## Django Router and URLs
