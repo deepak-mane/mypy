@@ -14,7 +14,10 @@
 - 2 Projects
   + Notely App - Fullstack Django Project for taking Notes [Mini Project]
     - Setting up the Notely App Project
-         + Test
+         + Creating a new project
+         + Running the project
+         + Creating a Code Repository in github
+         + Connecting project to Source Control
     - Reviewing the Requirements for Notely App
     - Creating the Note Model
     - Creating Database Migration
