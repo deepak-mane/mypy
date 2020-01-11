@@ -1,6 +1,6 @@
 # Python3 - Django : How Django Implements Web Applications ?
 
-Key points
+[Key points:]()
 1. Understanding The MVC Pattern
 1. Django's Approach
 1. Django Model
