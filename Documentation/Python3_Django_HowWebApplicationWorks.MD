@@ -18,17 +18,40 @@ We had the web browser application look at it the browser we sent a message to t
 ![Alt text](../images/HowWebApplicationWorks.PNG?raw=true "Title")
 
 ## Data Dommunication Pattern. 
-- Main Actors: 
-  + Client
-  + Network
-  + Webservers
-  + Apps (Build in Webserver)
-- The Rule of Engagement: HTTP
-- Resources, URL and Routers
-- Request and Response
-- Types of Response
-- Request Handlers
+- Main Actors: The environment of a web application consists of the following :
+  + Client : This is the browser
+  + Network : This is the Internet(www) which serves as communication channel between webserver and browser.
+  + Webservers : This os where our application lives.
+  + Apps (Build in Webserver) - This is you web application. It runs on the Webserver. This what we will build on Django.
+- The Rule of Engagement: HTTP - HyperText Transfer Protocol, how browser interacts with webserver. How message's are sent.
+- Resources, URL and Routers - 
+  + Resources : Anything that can be obtained from the web (Includes web pages, information from database)
+  + URL : Uniform Resource Locator, specifies the address of a resources that is located on a webserver.
+  + Routers : A router is a schema located within the webserver that maps a URL to a specific Resources.
+- Request and Response:
+  + Http Request are the messages that the client sends to the server.There are different types of request that the client can send to the server. These include.
+    + Http Get Request: This is used to retrieve data from the server.
+    + Http Post Request: This is used to send data to the server.
+    + Http Put Request: This is used to replace a specific data with a new data.
+    + Http Delete Request: This is used to delete a specific data in the server.
+  + Http Response is the message the server returns to the client in response to a request. Http Response has two parts:
+    + Response Header: This contains additional information about the data that is being requested such as its content type, when it was last updated, and if the data is to cached.
+    + Response Body: This is the main body of the message containing the data that is requested.
+    
+    ![Alt text](../images/RequestAndResponse.PNG?raw=true "Title") 
+    
+- Types of Response: The response from the webserver is usually of two types:
+  + Html Content
+  + Non-Html Content: such as below
+    + Plain text
+    + Images
+    + Documents (pdf,word,excel,csv)
+    + Audio clips
+    + Video clips    
+- Request Handlers: These are ususally framework specific class objects that implement methods that accepts the http request, processes that request and returns a http response. This reponse can be either *html* or *non-html* content. For HTML content, the hdandler specifies the template to render and any associated data that the template may need.
 
+    ![Alt text](../images/RequestHandlers.PNG?raw=true "Title") 
+    
 ## Data Storage Pattern. 
 
 
