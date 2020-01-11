@@ -1,6 +1,6 @@
 # Python3 - Django : How Web Application Works?
 
-![Alt text](../images/Documentation/HowWebApplicationWorks.PNG?raw=true "Title")
+![Alt text](./Documentation/images/HowWebApplicationWorks.PNG?raw=true "Title")
 
 If you understand how web applications work generally how the general principle of web application work then it becomes a lot easier to understand when I start implementing like when you start talking about it as without net Django No. Download the rest you will you will understand the pattern everything follows the same pattern and that is basically why I've decided to dedicate this section to kind of like putting you through how web applications work so that you understand the core concepts and how everything works. To see the big picture. So in this particular section we'll be we'll be competent through lectures.
 
