@@ -34,15 +34,42 @@ __*Test driven development basically is a method of developing software where in
    ![Alt text](../images/MVCOverview.PNG?raw=true "Title") 
         
 ## Django's Approach
+- Django follows the MVC pattern with some difference
 
 
 ## Django Model
-
+- Django Model serves the same purpose as in traditional MVC. Django model is responsible for passing data into and out of database.
 
 ## Django View
-
+- Django view works differently from the traditional MVC View. In Django, the Views - which are mainly python functions- defines the data to display from the Model. It more of less does what the MVC Controllers do, in terms of managing the Model data. The framework itself handle the duties of the controller.
 
 ## Django Template
+- Django Template is similar to the MVC View in that it contains the HTML snippets and formatting logic that specifies how data should be rendered to the user.
 
-
+   ![Alt text](../images/MappingDjangoMTC_TraditionalMVC.PNG?raw=true "Title") 
+   ![Alt text](../images/DjangoApplicationStructure.PNG?raw=true "Title") 
+   ![Alt text](../images/DjangoApplicationStructure1.PNG?raw=true "Title") 
+      ![Alt text](../images/DjangoApplicationStructure2.PNG?raw=true "Title") 
+         ![Alt text](../images/DjangoApplicationStructure3.PNG?raw=true "Title") 
 ## Django Router and URLs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
