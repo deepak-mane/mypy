@@ -6,7 +6,7 @@
 1. [Django Model](./Python3_Django_HowDjangoImplementsWebApp.MD#django-model)
 1. [Django View](./Python3_Django_HowDjangoImplementsWebApp.MD#django-view)
 1. [Django Template](./Python3_Django_HowDjangoImplementsWebApp.MD#django-template)
-1. [Django Router and URLs](./Python3_Django_HowDjangoImplementsWebApp.MD##django-router-and-urls)
+1. [Django Router and URLs](./Python3_Django_HowDjangoImplementsWebApp.MD#django-router-and-urls)
 
 ## Understanding The MVC Pattern
 - MVC Overview:
