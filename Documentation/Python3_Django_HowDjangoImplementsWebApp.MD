@@ -44,27 +44,62 @@ __*Test driven development basically is a method of developing software where in
 - Django model contains the attribute definitions that are mapped to the database tables.
 - These attributes could be of any datatypes such as integers, string, Boolean etc
 - Sample Django Model is shown below:
-```python
-from django.db import models
+  ```python
+  from django.db import models
 
-class Article(models.Model):
-  title = models.CharField(max_length=200)
-  author = models.ForeignKey(Author)
-  length = models.IntegerField()
-```
+  class Article(models.Model):
+    title = models.CharField(max_length=200)
+    author = models.ForeignKey(Author)
+    length = models.IntegerField()
+  ```
+- Django ORM 
+  + It provides us with a rich data access layer that allows us to work directly with databases using the python languiage instead of SQL. 
+  + Even with different types of dbs like PostgreSQL,MySQL,SQLite and Oracle. 
+  + As ORM is responsible from generating SQL queries internally, we are protected from problems such as SQL Injection Attacks. 
+  + With ORM , we are able to perform complex queries lot easier.
 
 ## Django View
 - Django view works differently from the traditional MVC View. In Django, the Views - which are mainly python functions- defines the data to display from the Model. It more of less does what the MVC Controllers do, in terms of managing the Model data. The framework itself handle the duties of the controller.
+- Django Views which are python functions accept http requests and returns a response.
+- Views are also used to fetch objects from the database and to modify those object when needed.
+- The response from view could be a HTML content or Non-HTML contens such as Json,Csv and XML
+- The view to use for a given request is determined by the URL pattern pattern associated with the http request.
+- In Django, views are created in a Python file call __*views.py*__
+- Sample Django View is shown below:
+  ```python
+  from django.shortcuts import render
 
+  def hello(request):
+     return render)request, "my_template.html", {})
+
+  ```
 ## Django Template
 - Django Template is similar to the MVC View in that it contains the HTML snippets and formatting logic that specifies how data should be rendered to the user.
-
+- Django templates defines the layout and formatiing of the final response from the view that should be sent to the user.
+- The templates could hold format for HTML contents or other non-HTML contents
+- In Django, HTML templates are located in the templates folder with the Django app
+- Template engines are configured with the TEMPLATES settings in the ___*settings.py*__ file.
+- Sample Django Template is shown below:
+  ```html
+  <div>
+    <h1><a href="/">My Blog App</a></h1>
+  </div>
+      
+  {% for post in posts %}
+      <div>
+        <h2>{{ post.title }}</h1>
+        <p>{{ post.detail }}</p>          
+      </div>
+  {% endfor %}
+  ```
 ![Alt text](../images/MappingDjangoMTC_TraditionalMVC.PNG?raw=true "Title") 
    ![Alt text](../images/DjangoApplicationStructure.PNG?raw=true "Title") 
       ![Alt text](../images/DjangoApplicationStructure0.PNG?raw=true "Title") 
          ![Alt text](../images/DjangoApplicationStructure1.PNG?raw=true "Title") 
             ![Alt text](../images/DjangoApplicationStructure2.PNG?raw=true "Title") 
                ![Alt text](../images/DjangoApplicationStructure3.PNG?raw=true "Title") 
+                   ![Alt text](../images/DjangoModelFieldTypes.PNG?raw=true "Title")
+               
 ## Django Router and URLs
 
 
