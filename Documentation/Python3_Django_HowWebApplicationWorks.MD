@@ -3,9 +3,9 @@
 If you understand how web applications work generally how the general principle of web application work then it becomes a lot easier to understand when I start implementing like when you start talking about it as without net Django No. Download the rest you will you will understand the pattern everything follows the same pattern and that is basically why I've decided to dedicate this section to kind of like putting you through how web applications work so that you understand the core concepts and how everything works. To see the big picture. So in this particular section we'll be we'll be competent through lectures.
 
 Basically 
-- we will look at data communication pattern. 
-- We look at data storage pattern. 
-- We'll look at data presentation pattern 
+- [We'll look at data communication pattern](./Python3_Django_HowWebApplicationWorks.MD#data-dommunication-pattern) 
+- [We'll look at data storage pattern. 
+- [We'll look at data presentation pattern 
 
 so every web application is made up of these three components. How does the Web application communicate with the browser and how does the Web application store  the data. Because the core at the heart of every web application is your ability to store data and your ability to search through those data and the ability to retrieve those data and your ability to audit. They did that in the database so data storage is the key component of every application. Then another key component of web application is data presentation because most of the cases you want to be able to do that I presume you want to be able to present the information you are retrieving to the user you can present the information through the through like your web page you get the information could also be presented to lucky if you are talking about rest api just the raw data you can that's all locked in if you're working with console application you can display the information on the console what for the sake of this web application we'll be looking at how to present information on the web so that our presentation is a key component of every application but that's basically why I've included this so if you understand this three component you've pretty much understood how how web applications work did not.
 
@@ -53,7 +53,12 @@ We had the web browser application look at it the browser we sent a message to t
     ![Alt text](../images/RequestHandlers.PNG?raw=true "Title") 
     
 ## Data Storage Pattern. 
-
+- Types of Data
+  + Static Data
+  + Dynamic Data
+- The Database
+- Object Relational Mapper - ORM
+- SQL
 
 ## Data Presentation Pattern 
 
