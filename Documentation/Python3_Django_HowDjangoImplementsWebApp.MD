@@ -2,7 +2,7 @@
 
 [Key points:]()
 1. [Understanding The MVC Pattern](./Python3_Django_HowDjangoImplementsWebApp.MD#understanding-the-mvc-pattern)
-1. [Django's Approach](./Python3_Django_HowDjangoImplementsWebApp.MD#django's-approach)
+1. [Django's Approach](./Python3_Django_HowDjangoImplementsWebApp.MD#djangos-approach)
 1. [Django Model](./Python3_Django_HowDjangoImplementsWebApp.MD#django-model)
 1. [Django View](./Python3_Django_HowDjangoImplementsWebApp.MD#django-view)
 1. [Django Template](./Python3_Django_HowDjangoImplementsWebApp.MD#django-template)
