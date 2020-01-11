@@ -38,7 +38,20 @@ __*Test driven development basically is a method of developing software where in
 
 
 ## Django Model
-- Django Model serves the same purpose as in traditional MVC. Django model is responsible for passing data into and out of database.
+- Django Model serves the same purpose as in traditional MVC. 
+- Django model is responsible for passing data into and out of database.
+- To perform this task effectively, it relies heavily on Django's ORM(Object Relational Mapper)
+- Django model contains the attribute definitions that are mapped to the database tables.
+- These attributes could be of any datatypes such as integers, string, Boolean etc
+- Sample Django Model is shown below:
+```django
+from django.db import models
+
+class Article(models.Model):
+  title = models.CharField(max_length=200)
+  author = models.ForeignKey(Author)
+  length = models.IntegerField()
+```
 
 ## Django View
 - Django view works differently from the traditional MVC View. In Django, the Views - which are mainly python functions- defines the data to display from the Model. It more of less does what the MVC Controllers do, in terms of managing the Model data. The framework itself handle the duties of the controller.
