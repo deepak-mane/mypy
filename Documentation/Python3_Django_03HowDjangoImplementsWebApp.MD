@@ -1,12 +1,12 @@
 # Python3 - Django : How Django Implements Web Applications ?
 
 [Key points:]()
-1. [Understanding The MVC Pattern](./Python3_Django_HowDjangoImplementsWebApp.MD#understanding-the-mvc-pattern)
-1. [Django's Approach](./Python3_Django_HowDjangoImplementsWebApp.MD#djangos-approach)
-1. [Django Model](./Python3_Django_HowDjangoImplementsWebApp.MD#django-model)
-1. [Django View](./Python3_Django_HowDjangoImplementsWebApp.MD#django-view)
-1. [Django Template](./Python3_Django_HowDjangoImplementsWebApp.MD#django-template)
-1. [Django Router and URLs](./Python3_Django_HowDjangoImplementsWebApp.MD#django-router-and-urls)
+1. [Understanding The MVC Pattern](./Python3_Django_03HowDjangoImplementsWebApp.MD#understanding-the-mvc-pattern)
+1. [Django's Approach](./Python3_Django_03HowDjangoImplementsWebApp.MD#djangos-approach)
+1. [Django Model](./Python3_Django_03HowDjangoImplementsWebApp.MD#django-model)
+1. [Django View](./Python3_Django_03HowDjangoImplementsWebApp.MD#django-view)
+1. [Django Template](./Python3_Django_03HowDjangoImplementsWebApp.MD#django-template)
+1. [Django Router and URLs](./Python3_Django_03HowDjangoImplementsWebApp.MD#django-router-and-urls)
 
 ## Understanding The MVC Pattern
 - MVC Overview:
