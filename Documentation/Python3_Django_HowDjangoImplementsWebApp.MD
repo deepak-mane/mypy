@@ -46,11 +46,12 @@ __*Test driven development basically is a method of developing software where in
 ## Django Template
 - Django Template is similar to the MVC View in that it contains the HTML snippets and formatting logic that specifies how data should be rendered to the user.
 
-   ![Alt text](../images/MappingDjangoMTC_TraditionalMVC.PNG?raw=true "Title") 
+![Alt text](../images/MappingDjangoMTC_TraditionalMVC.PNG?raw=true "Title") 
    ![Alt text](../images/DjangoApplicationStructure.PNG?raw=true "Title") 
-   ![Alt text](../images/DjangoApplicationStructure1.PNG?raw=true "Title") 
-      ![Alt text](../images/DjangoApplicationStructure2.PNG?raw=true "Title") 
-         ![Alt text](../images/DjangoApplicationStructure3.PNG?raw=true "Title") 
+      ![Alt text](../images/DjangoApplicationStructure0.PNG?raw=true "Title") 
+         ![Alt text](../images/DjangoApplicationStructure1.PNG?raw=true "Title") 
+            ![Alt text](../images/DjangoApplicationStructure2.PNG?raw=true "Title") 
+               ![Alt text](../images/DjangoApplicationStructure3.PNG?raw=true "Title") 
 ## Django Router and URLs
 
 
