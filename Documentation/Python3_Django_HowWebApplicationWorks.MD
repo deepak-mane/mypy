@@ -5,7 +5,7 @@ If you understand how web applications work generally how the general principle 
 Basically 
 - [We'll look at data communication pattern](./Python3_Django_HowWebApplicationWorks.MD#data-dommunication-pattern) 
 - [We'll look at data storage pattern](./Python3_Django_HowWebApplicationWorks.MD#data-storage-pattern)
-- [We'll look at data presentation pattern]()
+- [We'll look at data presentation pattern](./Python3_Django_HowWebApplicationWorks.MD#data-presentation-pattern)
 
 so every web application is made up of these three components. How does the Web application communicate with the browser and how does the Web application store  the data. Because the core at the heart of every web application is your ability to store data and your ability to search through those data and the ability to retrieve those data and your ability to audit. They did that in the database so data storage is the key component of every application. Then another key component of web application is data presentation because most of the cases you want to be able to do that I presume you want to be able to present the information you are retrieving to the user you can present the information through the through like your web page you get the information could also be presented to lucky if you are talking about rest api just the raw data you can that's all locked in if you're working with console application you can display the information on the console what for the sake of this web application we'll be looking at how to present information on the web so that our presentation is a key component of every application but that's basically why I've included this so if you understand this three component you've pretty much understood how how web applications work did not.
 
@@ -54,11 +54,19 @@ We had the web browser application look at it the browser we sent a message to t
     
 ## Data Storage Pattern. 
 - Types of Data
-  + Static Data
-  + Dynamic Data
+  + Static Data: Dates doesn't change often. Ex: HTML,CSS,JavaScript files,Images,Video
+  + Dynamic Data: Data changes frequently. Ex: Data stored in database,like inventory of books on ecommerce website.
 - The Database
-- Object Relational Mapper - ORM
-- SQL
+  + Web is all about transmitting data between the client and the webserver. Huge amount of information needed to be stored so that they can be queried for any relevant information.
+  + Database is a computer system that allows us to store information so that they can searched and retrieved.
+  + Ex: MySWL,MSSQL,Sqlite,Mongo,PostgreSQL
+- SQL : Structured Query Language is used to communicate to Database , and peform create,read,update and delete.
+- Object Relational Mapper - ORM : ORM enables object oriented programming languages to represent the database as an object allowing us to manipulate the database using the programming constructs.Some examples of ORM are:
+  + Entity Framework
+  + Hibernate
+  + NHibernate
+  + Dapper
+  + Eloquent
 
 ## Data Presentation Pattern 
 
