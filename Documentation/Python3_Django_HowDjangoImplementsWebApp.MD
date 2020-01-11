@@ -15,4 +15,7 @@ Key points
     - The Model
     - The View
     - The Controller
+    
+        ![Alt text](../images/MVCOverview.PNG?raw=true "Title") 
+        
 - Benefits of using the MVC pattern
