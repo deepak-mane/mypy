@@ -71,7 +71,6 @@ __*Test driven development basically is a method of developing software where in
 
   def hello(request):
      return render)request, "my_template.html", {})
-
   ```
 ## Django Template
 - Django Template is similar to the MVC View in that it contains the HTML snippets and formatting logic that specifies how data should be rendered to the user.
@@ -87,7 +86,7 @@ __*Test driven development basically is a method of developing software where in
       
   {% for post in posts %}
       <div>
-        <h2>{{ post.title }}</h1>
+        <h2>{{ post.title }}</h2>
         <p>{{ post.detail }}</p>          
       </div>
   {% endfor %}
@@ -101,17 +100,16 @@ __*Test driven development basically is a method of developing software where in
                    ![Alt text](../images/DjangoModelFieldTypes.PNG?raw=true "Title")
                
 ## Django Router and URLs
+- The URL specifies the address of a specified web resources this includes HTML pages.
+- Django maps URLs to a specific View. This mapping is define in the __*url.py*__ files in the Django project.
+  ```python
+  from django.urls import path
+  from . import views
 
-
-
-
-
-
-
-
-
-
-
+  urlpatterns = [
+    path('home/', views.home),
+  ]
+  ```
 
 
 
