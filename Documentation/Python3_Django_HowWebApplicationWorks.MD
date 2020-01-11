@@ -77,4 +77,4 @@ We had the web browser application look at it the browser we sent a message to t
 - Templating Engine:
   + This is the software that is specifically designed to combine Templates and Data Models to produce the required document.
     
-          ![Alt text](../images/TemplatingEngine.PNG?raw=true "Title") 
+![Alt text](../images/TemplatingEngine.PNG?raw=true "Title") 
