@@ -69,5 +69,12 @@ We had the web browser application look at it the browser we sent a message to t
   + Eloquent
 
 ## Data Presentation Pattern 
-
-
+- Template:
+  + These are basically HTML documetns that contain special formatting that specfies where dynamic values will be rendered. 
+  + The formatting are constructs of the Templating Language that also allows for task such as conditional tests and looping.
+- Templating Language:
+  + This are programming languages that we suse in templates to allow us perform programming constructs as  such as variable declaration looping and conditional testing. Its the language understood by template engine.
+- Templating Engine:
+  + This is the software that is specifically designed to combine Templates and Data Models to produce the required document.
+    
+          ![Alt text](../images/TemplatingEngine.PNG?raw=true "Title") 
