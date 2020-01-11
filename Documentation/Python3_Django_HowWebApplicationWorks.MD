@@ -16,3 +16,22 @@ So what these are those is that they use the word type in the address of their w
 We had the web browser application look at it the browser we sent a message to the web server that works of our who has the is hosting the web application that the web server we always talk to the web application it is the duty of the application to fetch the data and gets the ACMA template map the time today the appropriate data and appropriate ACMA file together and then send the food fire to the brand to the web server the works of our will now send the full ACMA pasted your browser the browser will not display the page a full Dom page to the user that the user can use the user will generally be assessed and will be using like your desktop or your laptop you know are your or your tablets. But this basically how web applications work the big picture.
 
 ![Alt text](../images/HowWebApplicationWorks.PNG?raw=true "Title")
+
+## Data Dommunication Pattern. 
+- Main Actors: 
+  + Client
+  + Network
+  + Webservers
+  + Apps (Build in Webserver)
+- The Rule of Engagement: HTTP
+- Resources, URL and Routers
+- Request and Response
+- Types of Response
+- Request Handlers
+
+## Data Storage Pattern. 
+
+
+## Data Presentation Pattern 
+
+
