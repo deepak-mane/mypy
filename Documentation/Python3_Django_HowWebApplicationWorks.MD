@@ -14,7 +14,7 @@ So on the big picture before I conclude this introduction on the big picture I j
 So what these are those is that they use the word type in the address of their web application or the web server in their browser then the browser will communicate to the web server and what the Web site does is the web server we send the request of the web application that the web application we get the data fetch the data and also get the template etched in my template map the data into the template and return on the information onto the web server then the web server we said we sent a food ACMA page to the browser then the browser we kind of like load the food done and should the user. The web page is visibly how how it works is generally key in the address of the Web site via the web.
 
 We had the web browser application look at it the browser we sent a message to the web server that works of our who has the is hosting the web application that the web server we always talk to the web application it is the duty of the application to fetch the data and gets the ACMA template map the time today the appropriate data and appropriate ACMA file together and then send the food fire to the brand to the web server the works of our will now send the full ACMA pasted your browser the browser will not display the page a full Dom page to the user that the user can use the user will generally be assessed and will be using like your desktop or your laptop you know are your or your tablets. But this basically how web applications work the big picture.
-
+## Big Picture
 ![Alt text](../images/HowWebApplicationWorks.PNG?raw=true "Title")
 
 ## Data Dommunication Pattern. 
