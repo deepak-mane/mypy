@@ -44,7 +44,7 @@ __*Test driven development basically is a method of developing software where in
 - Django model contains the attribute definitions that are mapped to the database tables.
 - These attributes could be of any datatypes such as integers, string, Boolean etc
 - Sample Django Model is shown below:
-```django
+```python
 from django.db import models
 
 class Article(models.Model):
