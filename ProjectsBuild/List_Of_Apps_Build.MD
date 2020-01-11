@@ -12,8 +12,15 @@
 ===============================================================
 ## Fullstack Django and Python Bootcamp With Real Life Projects
 - 2 Projects
-  + Building Materials E-Store (BMES) : Our Real-Life Application
-  + Notely App - Fullstack Django Project for taking Notes
+  + Notely App - Fullstack Django Project for taking Notes [Mini Project]
+    - Setting up the Notely App Project
+    - Reviewing the Requirements for Notely App
+    - Creating the Note Model
+    - Creating Database Migration
+    - Creating the Views
+    - Creating the Templates
+    - Implementing Validation
+  + Building Materials E-Store (BMES) : Our Real-Life Application [Major Project]    
 =================================================================
 ## Django & Python: complete BUNDLE + Django real world project
 - 1 Project
