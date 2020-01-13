@@ -5,7 +5,7 @@
 <p>django.template.exceptions.TemplateSyntaxError: 'static' is not a registered tag library. Must be one of:
 <p>
 <b>Resolution:</b>
-<p>Issue get resolved ,What I did I added static library in options following is code
+<p>Issue get resolved ,What I did I added static library in options following is code,This worked for me:
         
 ```python
 'OPTIONS': {
@@ -19,5 +19,5 @@
             'staticfiles' : 'django.templatetags.static',
         },
     }, 
-This worked for me
+
 ```
