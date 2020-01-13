@@ -33,18 +33,30 @@ python manage.py createsuperuser
 For windows git-bash
 winpty python manage.py createsuperuser
 
-To Create Additional New App
-==================================
-python manage.py startapp lookup
-
-```
-
-1. __3 things needed__
+- __3 things needed__
   + First you need actual web page
     - created templates directory in the app [lookup] and added home.html file init.
+    
+>python manage.py makemigrations           
+Migrations for 'main':
+  main/migrations/0001_initial.py
+    - Create model Main
+(myvenv) <deeps@sdcndub:/home/deeps/Desktop/myweb/myproject
+>python manage.py migrate       
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, main, sessions
+Running migrations:
+  Applying main.0001_initial... OK
+
+
   + template
     - created views.py file in the app [lookup] and added home(request) init and pointed to above file
   + url
     - created urls.py file in the app [lookup] and added path('', views.home, name="home"),
+
+```
+
+
+
     
 2. __Creating Navbar__
