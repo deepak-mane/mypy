@@ -6,7 +6,8 @@
 <p>
 <b>Resolution:</b>
 <p>Issue get resolved ,What I did I added static library in options following is code
-```python
+        
+```django
 'OPTIONS': {
         'context_processors': [
             'django.template.context_processors.debug',
