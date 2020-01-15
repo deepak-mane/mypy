@@ -95,13 +95,27 @@ Type "help", "copyright", "credits" or "license" for more information.
 <QuerySet []>
 >>> t.filter(id=1)
 <QuerySet [<ToDoList: Tim's List>]>
+
+# To Delete ToDoList
 >>> del_object = t.get(id=1)
 >>> del_object.delete()
 (2, {'main.Item': 1, 'main.ToDoList': 1})
 >>> t
 <django.db.models.manager.Manager object at 0x7f4ef86c2898>
+# To List all                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
 >>> t.all()
 <QuerySet []>
->>> 
+# To create New ToDoList
+>>> t1 = ToDoList(name="First List")
+>>> t1.save()
+# To create New ToDoList
+>>> t2 = ToDoList(name="Second List")
+>>> t2.save()
+>>> quit()
+(myvenv) <deeps@sdcndub:/home/deeps/Desktop/myweb2/SidBar
+>
+
+
+
 
 ```
