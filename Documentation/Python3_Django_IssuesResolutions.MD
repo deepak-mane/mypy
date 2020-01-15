@@ -1,7 +1,7 @@
 # Python3 - Django : Issues and Resolutions
 
 1.) <b>Issue :</b> django.template.exceptions.TemplateSyntaxError: 'static' is not a registered tag library. Must be one of:
-<b>Resolution:</b>Issue get resolved ,What I did I added static library in options following is code,This worked for me:
+<p><b>Resolution:</b>Issue get resolved ,What I did I added static library in options following is code,This worked for me:
         
 ```python
 'OPTIONS': {
