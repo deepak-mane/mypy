@@ -18,4 +18,4 @@
 
 ```
 2) <b>Issue :</b> OperationalError: database is locked
-<b>Resolution :</b> It was because I open the database from SQLite Browser. When I close it from the browser, the problem is gone
+<p><b>Resolution :</b> It was because I open the database from SQLite Browser. When I close it from the browser, the problem is gone
