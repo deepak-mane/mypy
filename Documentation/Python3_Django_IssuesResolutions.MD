@@ -21,3 +21,9 @@
     }, 
 
 ```
+### Issue 2:
+<b>Issue:</b>
+<p>OperationalError: database is locked
+<p>
+<b>Resolution:</b>
+<p>It was because I open the database from SQLite Browser. When I close it from the browser, the problem is gone
