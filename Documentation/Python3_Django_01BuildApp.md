@@ -77,5 +77,31 @@ Superuser created successfully.
 export APP_NAME="test"
 mkdir -p /D/APP/$APP_NAME
 
+(myvenv) <deeps@sdcndub:/home/deeps/Desktop/myweb2/SidBar
+>python manage.py shell       
+Python 3.6.8 |Anaconda, Inc.| (default, Dec 30 2018, 01:22:34) 
+[GCC 7.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> from main.models import Item, ToDoList
+>>> t = ToDoList.objects
+>>> t.all()
+<QuerySet [<ToDoList: Tim's List>]>
+>>> t.filter(name__startswith="Tim")
+<QuerySet [<ToDoList: Tim's List>]>
+>>> t.filter(name__startswith="Bob")
+<QuerySet []>
+>>> t.filter(id=2)
+<QuerySet []>
+>>> t.filter(id=1)
+<QuerySet [<ToDoList: Tim's List>]>
+>>> del_object = t.get(id=1)
+>>> del_object.delete()
+(2, {'main.Item': 1, 'main.ToDoList': 1})
+>>> t
+<django.db.models.manager.Manager object at 0x7f4ef86c2898>
+>>> t.all()
+<QuerySet []>
+>>> 
 
 ```
