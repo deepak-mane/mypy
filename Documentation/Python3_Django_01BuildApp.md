@@ -1,5 +1,7 @@
 # Python3 : Django - Building Web Apps
 
+- [w3schools How to Sidnav](https://www.w3schools.com/howto/howto_js_sidenav.asp)
+
 - To build app 3 things needed:
   + urls.py
   + views.py
