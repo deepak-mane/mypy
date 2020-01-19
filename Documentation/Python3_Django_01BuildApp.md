@@ -1,6 +1,8 @@
 # Python3 : Django - Building Web Apps
 
 - [w3schools How to Sidnav](https://www.w3schools.com/howto/howto_js_sidenav.asp)
+- [MySQL and Php CRUD App example](https://www.taniarascia.com/create-a-simple-database-app-connecting-to-mysql-with-php/)
+
 
 - To build app 3 things needed:
   + urls.py
