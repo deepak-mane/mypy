@@ -1,10 +1,11 @@
 # Python3 : Django - Building Web Apps
 
 - [w3schools How to Sidnav](https://www.w3schools.com/howto/howto_js_sidenav.asp)
+- [Django App Connected to MySQL database](https://www.digitalocean.com/community/tutorials/how-to-create-a-django-app-and-connect-it-to-a-database)
 - [MySQL and Php CRUD App example](https://www.taniarascia.com/create-a-simple-database-app-connecting-to-mysql-with-php/)
 
 
-- To build app 3 things needed:
+### To build app 3 things needed:
   + urls.py
   + views.py
 
