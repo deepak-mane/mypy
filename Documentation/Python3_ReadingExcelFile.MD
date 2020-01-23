@@ -20,41 +20,37 @@ edit
 play_arrow
 
 brightness_4
-# Reading an excel file using Python 
+### Reading an excel file using Python 
 import xlrd 
   
-# Give the location of the file 
+### Give the location of the file 
+```python
 loc = ("path of file") 
   
 # To open Workbook 
 wb = xlrd.open_workbook(loc) 
 sheet = wb.sheet_by_index(0) 
   
-# For row 0 and column 0 
+### For row 0 and column 0 
 sheet.cell_value(0, 0) 
 Output :
 
 'NAME'
- 
+```
+
 Code #2 : Extract number of rows
-
-filter_none
-edit
-play_arrow
-
-brightness_4
-# Program to extract number 
+### Program to extract number 
 # of rows using Python 
 import xlrd 
   
-# Give the location of the file 
+### Give the location of the file 
 loc = ("path of file") 
   
 wb = xlrd.open_workbook(loc) 
 sheet = wb.sheet_by_index(0) 
 sheet.cell_value(0, 0) 
   
-# Extracting number of rows 
+### Extracting number of rows 
 print(sheet.nrows) 
 Output :
 
@@ -67,8 +63,8 @@ edit
 play_arrow
 
 brightness_4
-# Program to extract number of 
-# columns in Python 
+### Program to extract number of 
+- columns in Python 
 import xlrd 
   
 loc = ("path of file") 
@@ -76,10 +72,10 @@ loc = ("path of file")
 wb = xlrd.open_workbook(loc) 
 sheet = wb.sheet_by_index(0) 
   
-# For row 0 and column 0 
+- For row 0 and column 0 
 sheet.cell_value(0, 0) 
   
-# Extracting number of columns 
+- Extracting number of columns 
 print(sheet.ncols) 
 Output :
 
@@ -92,8 +88,7 @@ edit
 play_arrow
 
 brightness_4
-# Program extracting all columns 
-# name in Python 
+- Program extracting all columns name in Python 
 import xlrd 
   
 loc = ("path of file") 
@@ -101,7 +96,7 @@ loc = ("path of file")
 wb = xlrd.open_workbook(loc) 
 sheet = wb.sheet_by_index(0) 
   
-# For row 0 and column 0 
+- For row 0 and column 0 
 sheet.cell_value(0, 0) 
   
 for i in range(sheet.ncols): 
@@ -119,7 +114,7 @@ edit
 play_arrow
 
 brightness_4
-# Program extracting first column 
+- Program extracting first column 
 import xlrd 
   
 loc = ("path of file") 
@@ -144,7 +139,7 @@ edit
 play_arrow
 
 brightness_4
-# Program to extract a particular row value 
+- Program to extract a particular row value 
 import xlrd 
   
 loc = ("path of file") 
